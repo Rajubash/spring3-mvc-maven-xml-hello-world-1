@@ -15,7 +15,7 @@ pipeline {
         // Repository where we will upload the artifact
         NEXUS_REPOSITORY = "Nexus"
         // Jenkins credential id to authenticate to Nexus OSS
-        NEXUS_CREDENTIAL_ID = "admin"
+        NEXUS_CREDENTIAL_ID = "b411f352-5745-4d16-b439-a2dc1534bb20"
     }
     stages {
         stage("clone code") {
