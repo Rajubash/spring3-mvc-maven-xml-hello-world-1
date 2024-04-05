@@ -40,8 +40,8 @@ node {
                             nexusUrl: "http://35.90.13.132:8081",
                             groupId: pom.groupId,
                             version: '${BUILD_NUMBER}',
-                            repository: "ncodeit-scripted",
-                            credentialsId: "nexus_credentials",
+                            repository: "nexus",
+                            credentialsId: "ab34c9fe-2cfb-40e6-9c78-34710bc3bc67",
                             artifacts: [
                                 // Artifact generated such as .jar, .ear and .war files.
                                 [artifactId: pom.artifactId,
